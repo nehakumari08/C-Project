@@ -93,7 +93,8 @@ void printChar(char ch,int n)
 }
 
 void printHead()
-{ system("cls");
+{ 
+clrscr();
 
 printf("\n\n\t");
 printChar('=',16);
